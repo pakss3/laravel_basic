@@ -1,0 +1,7 @@
+/vendor
+/node_modules
+.env
+/*.example
+/app/Handlers/Commands/*.gitkeep
+/app/Handlers/Events/*.gitkeep
+/config/database.php
