@@ -170,7 +170,8 @@ Route::get("helper/{helper}", function($helper){
 		"array_sort" => function(){
 			$array =  [
 					['name' => 'Jill'],
-					['name' => 'Barry']
+					['name' => 'Barry'],
+				['name' => 'Thlee']
 			];
 
 			$array = array_sort($array, function($value){
