@@ -19,4 +19,13 @@ class DymController extends Controller {
 		return view('hello',["name"=>$arg]);
 	}
 
+	public function example4(){
+		echo "example4aa";
+	}
+
+	public function example5(){
+		echo "example5:";
+	}
+
+
 }
